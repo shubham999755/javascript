@@ -7,11 +7,11 @@ function third()
     console.log("print third");
 }
 first();
-setTimeout(function second())
+setTimeout( function second())
 {
     console.log("print second");
 }
-setTimeout(second,2000);
+//setTimeout(second,2000);
 third();
 
 
